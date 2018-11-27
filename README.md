@@ -40,7 +40,7 @@ All pages are added to the `content/` directory as Markdown files.
 
 ### "Static" (aka Orphan) Pages
 
-Pages in subdirectories of the `content/` directory (such as the `static/` directory) are *not* automatically added to the front page and will need to be linked from some other page. These are also known as *orphan* pages. These are still markdown files that will be rendered into HTML files by `zola`.
+Pages in subdirectories of the `content/` directory (such as the `content/static/` directory) are *not* automatically added to the front page and will need to be linked from some other page. These are also known as *orphan* pages. These are still markdown files that will be rendered into HTML files by `zola`.
 
 ### Static Content
 
