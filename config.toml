@@ -17,13 +17,13 @@ build_search_index = true
 [extra]
 hyde_theme = "theme-base-09"
 hyde_user_links = [
-    {url = "./faq", name = "FAQ"},
-    {url = "./howto", name = "How-To"},
+    {url = "$BASE_URL/faq", name = "FAQ"},
+    {url = "$BASE_URL/howto", name = "How-To"},
 ]
 hyde_developer_links = [
-    {url = "./StratisSoftwareDesign.pdf", name = "Software Design"},
-    {url = "./DBusAPIReference.pdf", name = "DBUS API Reference"},
-    {url = "./StratisStyleGuidelines.pdf", name = "Programming Style Guidelines"},
+    {url = "$BASE_URL/StratisSoftwareDesign.pdf", name = "Software Design"},
+    {url = "$BASE_URL/DBusAPIReference.pdf", name = "DBUS API Reference"},
+    {url = "$BASE_URL/StratisStyleGuidelines.pdf", name = "Programming Style Guidelines"},
 ]
 hyde_contact_links = [
     {url = "https://github.com/stratis-storage", name = "Github", fa="fab fa-github"},
